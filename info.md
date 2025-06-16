@@ -57,22 +57,14 @@ and Koebi reserves the right to remove anything that could be TOO disruptive.
 
 Coins are the mod's currency. You can view your balance by using the `{{ bal }}` command. 
 
-{% if utils == true %}
-You'll notice the balance command may have some new emojis. If that's the case, here is an overview
-of the emojis as follows:
-
 - 💰 represents the amount of coins you current have.
 - ⚖ represents your current karma.
-- 📈 represents the amount of coins you gain everytime the mod awards coins.
-- 📉 represents the amount of coins you lose everytime to mod awards coins.
+- 📈 represents the amount of coins you gain every 2 minutes.
+- 📉 represents the amount of coins you lose every 2 minutes.
 
-{% endif %}
-
-
-You get one lootbox full of coins every stream! You can open this lootbox by using the `!openlootbox`
+You also get one lootbox full of coins every stream! You can open this lootbox by using the `!openlootbox`
 command, as well as check the number of lootboxes you have with `!lootboxes`.
 
-<br/>
 ## What is Karma?
 
 Karma is a system in the mod that tries to limit the amount of negative events a viewer can purchase at
@@ -89,7 +81,6 @@ are the `!mypawn` commands, which allow you see various information about your p
 every command here, but most commands should generally be self-descriptive or have a description of
 what they do on the [commands]({{- "/commands" | relative_url -}}) page.
 
-<br/>
 ## How do I buy a pawn?
 
 Use `!buy pawn 1` to buy your way into the colony. It costs 2500 coins. Once created, Koebi can assign
