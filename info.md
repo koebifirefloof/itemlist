@@ -50,7 +50,8 @@ Twitch Toolkit is a mod by hodlhodl that allows viewers to affect the game in a 
 most prominent is its [store]({{- "/" | relative_url -}}), which allows you to purchase a number of
 things the streamer curated. Depending on the purchase, these things appear in-game or affect the
 game in some way. Another way viewers can interact with the game is through the mod's polls. The
-choices in these polls depend heavily on what's enabled in the mod.
+choices in these polls depend heavily on what's enabled in the mod. This mod can cause a lot of chaos,
+and Koebi reserves the right to remove anything that could be TOO disruptive.
 
 ## What Are Coins?
 
@@ -68,11 +69,8 @@ of the emojis as follows:
 {% endif %}
 
 
-{%- if lootboxes == true -%}
-You'll also notice that you'll get a message from the bot about a lootbox. You can open this lootbox
-by using the `!openlootbox` command, as well as check the number of lootboxes you have with `!lootboxes`.
-You'll always get a new lootbox everyday.
-{%- endif -%}
+You get one lootbox full of coins every stream! You can open this lootbox by using the `!openlootbox`
+command, as well as check the number of lootboxes you have with `!lootboxes`.
 
 
 <br/>
@@ -93,13 +91,10 @@ every command here, but most commands should generally be self-descriptive or ha
 what they do on the [commands]({{- "/commands" | relative_url -}}) page.
 
 
-{%- if puppeteer -%}
 <br/>
-## What is Puppeteer?
+## How do I buy a pawn?
 
-[Puppeteer](https://steamcommunity.com/sharedfiles/filedetails/?id=2057192142) is a mod by Brrainz that
-allows viewers to directly control their pawns, and even view a number of information about your pawn in
-a graphical way. It also redirects some of the responses from Twitch Toolkit to its website to clean up
-chat a bit. So, if you're logged into Puppeeter and you're wondering why the bot isn't responding to you,
-you should check the `TT` tab on the website first.
-{%- endif -%}
+Use `!buy pawn 1` to buy your way into the colony. It costs 2500 coins. Once created, Koebi can assign
+you a fursona and set your sexuality preferences (gay, bisexual, polyamorous, asexual) manually. Being
+straight still costs 3500 coins. You can only have one pawn in the colony at a time, if you try to buy
+a second one, it will be deleted and you will not be refunded your coins!
