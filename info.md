@@ -72,7 +72,6 @@ of the emojis as follows:
 You get one lootbox full of coins every stream! You can open this lootbox by using the `!openlootbox`
 command, as well as check the number of lootboxes you have with `!lootboxes`.
 
-
 <br/>
 ## What is Karma?
 
@@ -89,7 +88,6 @@ command, which is the mods entry point into purchasing things from the store. Ot
 are the `!mypawn` commands, which allow you see various information about your pawn. We won't cover
 every command here, but most commands should generally be self-descriptive or have a description of
 what they do on the [commands]({{- "/commands" | relative_url -}}) page.
-
 
 <br/>
 ## How do I buy a pawn?
